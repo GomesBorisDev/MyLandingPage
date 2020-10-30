@@ -1,6 +1,9 @@
+/*** GENERAL ***/
 body {
 	font-family: 'Nunito', sans-serif;
 }
+
+/*** HEADER ***/
 
 header {
     width: 100%;
@@ -13,44 +16,51 @@ header {
 	top: 0;*/
 }
 
+/*** NAV ***/
+
 nav {
 	width: 100%;
-	display: flex;
-	text-align: center;
-	position: fixed;
-	background-color: white;
-	z-index: 10
+	background-color: lightgrey;
+	height: 10%;
+}
+
+.name {
+	font-family: 'Shadows Into Light', cursive;
 }
 
 nav ul {
 	display: flex;
 	list-style-type: none;
+	font-size: 0.85em;
+	padding-left: 0;
 }
 
 nav ul li {
 	margin: 5px;
 }
 
-#landing-display {
-	
+/*** LANDING ***/
+
+#landing-intro {
+	margin: 30px;
+	font-size: 1.5em;
 }
 
-#landing-display h2 {
-	position: absolute;
+#landing-catch {
+	padding-top: 20%;
+	margin-bottom: 2%;
+}
+
+#landing-catch h2 {
 	left : 0;
-	top : 12%;
+	top : 25%;
 	padding: 10%;
+	font-size: 2em;
 
 }
-
-#landing-img {
-	width: 100%;
-	position: relative;
+#webDev-title {
+	font-family: 'Shadows Into Light', cursive;
 }
-
 
 /*** FREELANCE ***/
 
-#freelance-img {
-	width: 100%;
-}
